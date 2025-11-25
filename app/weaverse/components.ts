@@ -66,6 +66,9 @@ import * as VideoEmbed from "~/sections/video-embed";
 import * as VideoEmbedItem from "~/sections/video-embed/video";
 import * as SaleHeroBanner1 from "~/sections/sale-hero-banner-1";
 import * as FeaturedGiftsGrid from "~/sections/featured-gifts-grid";
+import * as FeaturedGiftsHero from "~/sections/featured-gifts-grid/hero";
+import * as FeaturedGiftsSquareCard from "~/sections/featured-gifts-grid/square-card";
+import * as FeaturedGiftsTallCard from "~/sections/featured-gifts-grid/tall-card";
 
 
 export const components: HydrogenComponent[] = [
@@ -141,4 +144,7 @@ export const components: HydrogenComponent[] = [
   Spacer,
   SaleHeroBanner1,
   FeaturedGiftsGrid,
+  FeaturedGiftsHero,
+  FeaturedGiftsSquareCard,
+  FeaturedGiftsTallCard,
 ];
