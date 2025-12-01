@@ -69,6 +69,7 @@ import * as FeaturedGiftsGrid from "~/sections/featured-gifts-grid";
 import * as FeaturedGiftsHero from "~/sections/featured-gifts-grid/hero";
 import * as FeaturedGiftsSquareCard from "~/sections/featured-gifts-grid/square-card";
 import * as FeaturedGiftsTallCard from "~/sections/featured-gifts-grid/tall-card";
+import * as FeaturedCollectionsSales from "~/sections/featured-collections-sales"
 
 
 export const components: HydrogenComponent[] = [
@@ -147,4 +148,5 @@ export const components: HydrogenComponent[] = [
   FeaturedGiftsHero,
   FeaturedGiftsSquareCard,
   FeaturedGiftsTallCard,
+  FeaturedCollectionsSales,
 ];

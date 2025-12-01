@@ -49,7 +49,7 @@ export const PRODUCT_VARIANT_FRAGMENT = `#graphql
       nodes {
         id
         title
-        product {
+          product {
           handle
         }
       }

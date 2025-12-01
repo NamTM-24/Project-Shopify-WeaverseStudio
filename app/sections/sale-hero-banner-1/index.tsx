@@ -8,7 +8,6 @@ import { cn } from "~/utils/cn";
 import { backgroundInputs } from "~/components/background-image";
 import { overlayInputs } from "~/components/overlay";
 import type { OverlayAndBackgroundProps } from "~/components/overlay-and-background";
-import { OverlayAndBackground } from "~/components/overlay-and-background";
 
 const gapVariants = cva("", {
   variants: {
