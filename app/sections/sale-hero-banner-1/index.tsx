@@ -122,7 +122,7 @@ export default function SaleHeroBanner1(
       <div
         ref={containerRef}
         className={cn(
-          "relative z-10 px-5 py-6 md:px-10 md:py-8 lg:px-15 lg:py-12",
+          "relative px-5 py-6 md:px-10 md:py-8 lg:px-15 lg:py-12",
           "flex flex-col items-center text-center justify-center",
           gapVariants({ gap , contentPosition}),
           "[&_.subheading]:font-mono",

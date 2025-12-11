@@ -1,4 +1,5 @@
 import { createSchema, type HydrogenComponentProps } from "@weaverse/hydrogen";
+import { backgroundInputs } from "~/components/background-image";
 import type { SectionProps } from "~/components/section";
 import { Section, layoutInputs } from "~/components/section";
 
@@ -32,6 +33,12 @@ export const schema = createSchema({
     {
       group: "Layout",
       inputs: layoutInputs,
+    },
+    {
+      group: "Background",
+      inputs: [
+        ...backgroundInputs.filter((inp) => inp.name !== "backgroundFor"),
+      ],
     },
   ],
   presets: {

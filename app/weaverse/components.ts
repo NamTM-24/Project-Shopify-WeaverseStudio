@@ -69,7 +69,11 @@ import * as FeaturedGiftsGrid from "~/sections/featured-gifts-grid";
 import * as FeaturedGiftsHero from "~/sections/featured-gifts-grid/hero";
 import * as FeaturedGiftsSquareCard from "~/sections/featured-gifts-grid/square-card";
 import * as FeaturedGiftsTallCard from "~/sections/featured-gifts-grid/tall-card";
-import * as FeaturedCollectionsSales from "~/sections/featured-collections-sales"
+import * as FeaturedCollectionsSales from "~/sections/featured-collections-sales";
+import * as FeaturedCollectionsSalesItem from "~/sections/featured-collections-sales/sales-item";
+import * as SalesItemDefaultButton from "~/sections/featured-collections-sales/default-button";
+import * as SalesItemHoverButtons from "~/sections/featured-collections-sales/hover-buttons";
+import * as FeaturedProducts1 from "~/sections/featured-products1"
 
 
 export const components: HydrogenComponent[] = [
@@ -149,4 +153,8 @@ export const components: HydrogenComponent[] = [
   FeaturedGiftsSquareCard,
   FeaturedGiftsTallCard,
   FeaturedCollectionsSales,
+  FeaturedCollectionsSalesItem,
+  SalesItemDefaultButton,
+  SalesItemHoverButtons,
+  FeaturedProducts1
 ];
