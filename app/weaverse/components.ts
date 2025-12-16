@@ -73,7 +73,8 @@ import * as FeaturedCollectionsSales from "~/sections/featured-collections-sales
 import * as FeaturedCollectionsSalesItem from "~/sections/featured-collections-sales/sales-item";
 import * as SalesItemDefaultButton from "~/sections/featured-collections-sales/default-button";
 import * as SalesItemHoverButtons from "~/sections/featured-collections-sales/hover-buttons";
-import * as FeaturedProducts1 from "~/sections/featured-products1"
+import * as FeaturedProducts1 from "~/sections/featured-products1";
+import * as FeaturedProduct1Card from "~/sections/featured-products1/product-card";
 
 
 export const components: HydrogenComponent[] = [
@@ -156,5 +157,6 @@ export const components: HydrogenComponent[] = [
   FeaturedCollectionsSalesItem,
   SalesItemDefaultButton,
   SalesItemHoverButtons,
-  FeaturedProducts1
+  FeaturedProducts1,
+  FeaturedProduct1Card,
 ];
