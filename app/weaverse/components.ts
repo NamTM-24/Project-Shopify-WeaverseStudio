@@ -76,6 +76,8 @@ import * as SalesItemHoverButtons from "~/sections/featured-collections-sales/ho
 import * as FeaturedProducts1 from "~/sections/featured-products1";
 import * as FeaturedProduct1Card from "~/sections/featured-products1/product-card";
 import * as MainProductDetails from "~/sections/main-product-details";
+import * as MPDProductBreadcrumb from "~/sections/main-product-details/product-breadcrumb";
+import * as MPDProductGallery from "~/sections/main-product-details/product-gallery";
 
 import * as MiddleCollectionsList from "~/sections/middle-collections-list";
 
@@ -162,5 +164,7 @@ export const components: HydrogenComponent[] = [
   FeaturedProducts1,
   FeaturedProduct1Card,
   MainProductDetails,
+  MPDProductBreadcrumb,
+  MPDProductGallery,
   MiddleCollectionsList,
 ];
